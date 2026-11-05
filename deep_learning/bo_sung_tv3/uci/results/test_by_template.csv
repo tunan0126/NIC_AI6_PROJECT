@@ -1,7 +1,0 @@
-language,model,group,messages,Precision,Recall,F1,ROC_AUC,PR_AUC,TN,FP,FN,TP
-uci,ML_TV2,seen_in_train_or_val,38,1.0,1.0,1.0,1.0,1.0,1,0,0,37
-uci,ML_TV2,new_template,997,1.0,0.8936,0.9438,0.9968,0.9809,903,0,10,84
-uci,lstm,seen_in_train_or_val,38,1.0,1.0,1.0,1.0,1.0,1,0,0,37
-uci,lstm,new_template,997,0.871,0.8617,0.8663,0.9736,0.8797,891,12,13,81
-uci,conv1d,seen_in_train_or_val,38,1.0,1.0,1.0,1.0,1.0,1,0,0,37
-uci,conv1d,new_template,997,0.9121,0.883,0.8973,0.981,0.9547,895,8,11,83
