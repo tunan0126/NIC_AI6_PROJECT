@@ -1,0 +1,121 @@
+{
+  "selected": "conv1d",
+  "models": {
+    "lstm": {
+      "source_test": {
+        "Precision": 0.7222,
+        "Recall": 0.8797,
+        "F1": 0.7932,
+        "ROC_AUC": 0.9559,
+        "PR_AUC": 0.8948,
+        "TN": 384,
+        "FP": 45,
+        "FN": 16,
+        "TP": 117
+      },
+      "regression_development": {
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC_AUC": 1.0,
+        "PR_AUC": 1.0,
+        "TN": 12,
+        "FP": 0,
+        "FN": 0,
+        "TP": 12
+      }
+    },
+    "conv1d": {
+      "source_test": {
+        "Precision": 0.8273,
+        "Recall": 0.8647,
+        "F1": 0.8456,
+        "ROC_AUC": 0.9751,
+        "PR_AUC": 0.9368,
+        "TN": 405,
+        "FP": 24,
+        "FN": 18,
+        "TP": 115
+      },
+      "regression_development": {
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1": 1.0,
+        "ROC_AUC": 1.0,
+        "PR_AUC": 1.0,
+        "TN": 12,
+        "FP": 0,
+        "FN": 0,
+        "TP": 12
+      }
+    }
+  },
+  "validation": {
+    "lstm": {
+      "architecture": "lstm",
+      "threshold": 0.4791546165943146,
+      "model_file": "models/lstm.keras",
+      "model_sha256": "bfc855b50ca75448a595355c8bce29ea3dbc3fa64f6521567c0790aec8b608fc",
+      "original_validation": {
+        "Precision": 0.9324,
+        "Recall": 0.9718,
+        "F1": 0.9517,
+        "ROC_AUC": 0.9859,
+        "PR_AUC": 0.9593,
+        "TN": 159,
+        "FP": 5,
+        "FN": 2,
+        "TP": 69
+      },
+      "authored_validation": {
+        "Precision": 0.9091,
+        "Recall": 1.0,
+        "F1": 0.9524,
+        "ROC_AUC": 0.9825,
+        "PR_AUC": 0.9803,
+        "TN": 18,
+        "FP": 2,
+        "FN": 0,
+        "TP": 20
+      },
+      "eligible": false,
+      "epochs_run": 7,
+      "restored_epoch": 4
+    },
+    "conv1d": {
+      "architecture": "conv1d",
+      "threshold": 0.6509048342704773,
+      "model_file": "models/conv1d.keras",
+      "model_sha256": "e0e7903e1fe04a386481f7fc3f756847c4eb745574611506fc4c795e250df5b1",
+      "original_validation": {
+        "Precision": 0.9589,
+        "Recall": 0.9859,
+        "F1": 0.9722,
+        "ROC_AUC": 0.993,
+        "PR_AUC": 0.9769,
+        "TN": 161,
+        "FP": 3,
+        "FN": 1,
+        "TP": 70
+      },
+      "authored_validation": {
+        "Precision": 0.8,
+        "Recall": 1.0,
+        "F1": 0.8889,
+        "ROC_AUC": 0.99,
+        "PR_AUC": 0.9917,
+        "TN": 15,
+        "FP": 5,
+        "FN": 0,
+        "TP": 20
+      },
+      "eligible": true,
+      "epochs_run": 9,
+      "restored_epoch": 6
+    }
+  },
+  "source_train": 1640,
+  "authored_train": 130,
+  "authored_validation": 40,
+  "provenance": "Authored development coverage, not independently collected SMS. Inherited benchmark already seen; report separately from original TV3."
+}

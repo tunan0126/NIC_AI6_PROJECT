@@ -1,0 +1,58 @@
+id,text,y_true,y_pred,score,error_type
+4,(TB) Phòng Cảnh sát giao thông đường bộ - đường sắt Công an Thành phố Hồ Chí Minh khuyến cáo: Cảnh sát giao thông không gọi điện thoại để yêu cầu chuyển tiền nộp phạt vi phạm hành chính qua các link hoặc tài khoản do các đối tượng lừa đảo cung cấp. Việc nộp phạt vi phạm hành chính được thực hiện trực tiếp tại trụ sở lực lượng Cảnh sát giao thông hoặc thông qua Cổng dịch vụ công quốc gia tại địa chỉ https://dichvucong.gov.vn hoặc Cổng dịch vụ công Bộ Công an tại địa chỉ https://dichvucong.bocongan.gov.vn,0,1,0.7539193,FP
+12,Công ty điện lực thủ đức đã tiếp nhận thông tin của quý khách ! ĐL đã cử a Hoàng khảo sát với số ĐT :[NUMBER] khảo sát ngày [DATE],0,1,0.73272,FP
+16,"Trẻ em cần được học bơi và học kỹ năng an toàn để phòng, chống đuối nước.",0,1,0.86739427,FP
+22,đơn 51/9 đường 475 a giao giùm e [TIME] đc kh a Có đon od em bỏ vô nhà có j lây giúp em nha a tài dạ oke e cảm ơn a,0,1,0.63762397,FP
+23,"Tinhocngoisao da bao hanh: 9b.Moi.SSD Apacer 480G [NUMBER] Sata III ([NUMBER]-1). (EAN [NUMBER]) BH 36T theo 5BH305310002, Kinh moi Quy Khach den nhan tai 180 [NAME], Q9. Neu kh o tinh, Ngoi Sao se chuyen phat tan nha",0,1,0.60116667,FP
+41,"Mung sinh nhat 15 tuoi Lotte Cinema tang ban 2 code xem phim [MONEY] chi voi [MONEY].Dung tai rap tu 10-13/4,17-20/4,24-27/4. Code: [NUMBER] va [NUMBER].",0,1,0.5586006,FP
+44,QK vua tich [POINT] ANGELA 60v. Tich [POINT] san pham truoc 31/12/23 de doi 1 san pham 15V. Tra cuu qua tang tai https://ecogreen.com.vn hoac goi [NUMBER],0,1,0.74309385,FP
+45,Telegram code: [NUMBER] You can also tap on this link to log in: https://t.me/login/[NUMBER],0,1,0.7395325,FP
+57,"Ahamove tang rieng ban ma HIAHA tiet kiem ngay [MONEY] cho 2 don hang dau tien, dat don ngay tai https://ahamove.onelink.me/fmLb/5huavlai",0,1,0.7496453,FP
+61,VCB Digibank trân trọng thông báo đến quý khách đăng nhập vletcombank.com để nân cấp tính năng mới để không bị ảnh hưởng đến việc sử dụng của quý khách.,0,1,0.80485064,FP
+69,"Tích cực tham gia Cuộc thi trực tuyến ""Tìm hiểu pháp luật về bầu cử đại biểu Quốc hội và đại biểu Hội đồng nhân dân"" tại địa chỉ: https://thitimhieuphapluat.moj.gov.vn để góp phần vào sự thành công của ngày bầu cử [DATE].",0,1,0.8107606,FP
+70,"The Manson thong bao, don hang: 221007R4FP4BRJ da duoc kich hoat bao hanh dien tu. Chuc quy khach co giay phut trai nghiem that tot san pham. Chi tiet lien he: https://themanson.vn/",0,1,0.66756314,FP
+72,GS25 Xin thong bao password cua ban la Code: [NUMBER],0,1,0.541783,FP
+73,Tôi đã nhận được đơn hàng spxvn[NUMBER]a Vào lúc 13h10 ngày 6 thang 10 . Đồng ý gở khieu nai,0,1,0.9344214,FP
+74,Thong bao ma giam gia 9.9 chi con [TIME] het han ngay 11/9. Su dung ngay tai lzd.co/9thang9_la2 kem voi [MONEY] voucher tich luy 9.9,0,1,0.5640622,FP
+76,[VANI] Xin vui lòng nhập mã xác thực của Vani Wallet: [NUMBER],0,1,0.5652688,FP
+104,Rat tiec! Tai khoan cua Quy khach khong du tien de su dung tien ich nay. Vui long nap them tien vao tai khoan va thu lai. Tran trong!,0,1,0.6370292,FP
+113,"Sáng suốt lựa chọn những người tiêu biểu về đức, tài, xứng đáng đại diện cho ý chí, nguyện vọng và quyền làm chủ của Nhân dân bầu vào Quốc hội khoá XV và Hội đồng nhân dân các cấp nhiệm kỳ [NUMBER]- [NUMBER]!",0,1,0.9392693,FP
+123,"Hãy gọi tổng đài Quốc Gia Bảo Vệ Trẻ Em 111 để nhận tư vấn, hỗ trợ chăm sóc trẻ em đang phải cách ly do Covid - 19",0,1,0.83907056,FP
+124,Người lớn hãy nhắc trẻ em hàng ngày về nguy cơ đuối nước. Cho trẻ em học bơi để ngừa đuối nước!,0,1,0.8380933,FP
+135,Tầm [TIME] anh giao lại giùm em được không anh h nhà em khôg có ng nhận anh ơi Ok. Có người nhà a hẹn [TIME] ạ,0,1,0.9339494,FP
+265,"Bộ TTTT khuyến cáo người dân nâng cao cảnh giác, không chuyển tiền hoặc cung cấp thông tin cá nhân cho người lạ qua điện thoại. Nếu có hiện tượng trên, đề nghị trình báo ngay cho cơ quan Công an để xử lý hoặc thông báo đến số điện thoại trực ban hình sự [NUMBER] của Cục Cảnh sát hình sự để được hướng dẫn kịp thời.",0,1,0.92468745,FP
+282,"Em ơi, sáng giờ gọi e 2 lần để giao hàng r. C bên Dr Mai trị mụn",0,1,0.87283796,FP
+291,Xác nhận tạo mã dự phòng Steam: [NUMBER],0,1,0.5374953,FP
+301,"Bộ trưởng Bộ Giáo dục và Đào tạo kêu gọi toàn thể cán bộ quản lý giáo dục, nhà giáo, người lao động trong ngành, học sinh, sinh viên và cha mẹ học sinh trên toàn quốc hãy thực hiện việc khai báo y tế tự nguyện. Hãy tải phần mềm ứng dụng NCOVI tại địa chỉ https://onelink.to/3e6wap hoặc truy cập cổng khai báo điện tử (https://suckhoetoandan.vn/ ; https://tokhaiyte.vn/) để điền thông tin và làm theo các bước hướng dẫn. Các gia đình học sinh hãy giúp đỡ, động viên con em mình trong việc khai báo. Khai báo y tế tự nguyện - Hành động thiết thực chiến thắng dịch bệnh Covid-19 - Hãy thực hiện ngay hôm nay!",0,1,0.92533404,FP
+304,"Chính phủ, Thủ tướng Chính phủ: Để phòng chống Covid-19, đề nghị người dân tuân thủ hướng dẫn của cơ quan y tế. Người trên 60 tuổi hãy ở nhà, hạn chế tiếp xúc với người khác. Đeo khẩu trang khi ra ngoài và thường xuyên rửa tay bằng xà phòng hoặc dung dịch sát khuẩn. Tăng cường dinh dưỡng, tập luyện, nâng cao sức khỏe. Mỗi người dân là một chiến sỹ trên mặt trận phòng chống dịch bệnh.",0,1,0.7106385,FP
+317,Vietnamobile chuc Quy khach mot Valentine hanh phuc ben nguoi than yeu cua minh. Mon qua tu Vietnamobile: http://bit.ly/VNMHappyValentine,0,1,0.6568723,FP
+328,Shop ơi em có đặt đơn hàng #[NUMBER] tầm 5 ngày rồi mà chưa thấy giao đến shop vui lòng kiểm tra giúp em với ạ,0,1,0.9538555,FP
+330,"Mình gọi từ shop Nowsaigon để xác nhận đơn hàng. Bạn kiểm tra mail xem đơn hàng đã đặt và các thông tin của bạn đã chính xác chưa ạ? Bạn phản hồi qua tin nhắn này luôn giúp mình (không trả lời qua mail) để đơn hàng được gửi đi nhanh chóng ạ. Nếu bạn không phản hồi, sau 2 ngày đơn hàng bị huỷ Cảm ơn bạn",0,1,0.9707516,FP
+331,"Bạn chú ý điện thoại để shipper giao hàng ạ Lần tới nếu k thấy bên mình gọi hoặc nhắn tin xác nhận thì bạn chủ động nhắn qua fb/ig giúp shop ạ Đơn hàng của bạn được gửi đi rồi ,2-4 ngày nữa bạn nhận dc hàng bạn nhé",0,1,0.9680717,FP
+333,M xc nhn Twitter ca bn l [NUMBER],0,1,0.5433372,FP
+355,"Hi bạn! Mình bên Bad Boy Sanctuary shop, bên mình đã lấy lại được fanpage facebook.Bạn like và theo dõi chúng mình theo đường link dưới hoặc nếu sợ đây là đường link virus lừa gạt thì search tên shop trên mục tìm kiếm facebook nhé <3 https://www.facebook.com/badboysanctuary24/ Cảm ơn bạn trước đó đã mua hàng bên shop。",0,1,0.94347703,FP
+363,Mat khau dang nhap Tiki cua ban la: vM9KUy. Vui long cap nhat lai mat khau sau khi dang nhap.,0,1,0.82370204,FP
+364,"Chao ban, Tiki xin gui ban link download app: https://vntiki.onelink.me/Rmpi/d5b513e1",0,1,0.681567,FP
+371,Chuc mung Quy khach so huu the KHTT VinID va huong uu dai 2%-10% tai hon [POINT] KD cua TD Vingroup. Tai APP VinID de nhan ma giam gia HOT https://id.vin/W3V,0,1,0.69190246,FP
+375,"Theo dự báo, tối nay Bão số 9 sẽ vào TP.HCM. Đề nghị mọi người hạn chế đi lại ngoài đường trừ trường hợp khẩn cấp! Tonight, Typhoon No.9 hit to Ho Chi Minh City. People do not go out in case of emergency!",0,1,0.9483263,FP
+376,"Bão số 9 có khả năng ảnh hưởng đến TP.HCM, mọi người theo dõi để phòng tránh! Typhoon number 9 can affect HCM city, people should follow to have prevention!",0,1,0.858329,FP
+385,Quý khách đã tham gia CTKM của dịch vụ Giải Trí Việt và được tặng [MONEY] vào tài khoản chính. Xin cảm ơn,0,1,0.90419465,FP
+408,Ban co 1 don hang gui tu [NAME] dang duoc giao den ban voi so tien Od. Vui long theo doi don hang tai https://tracking.be.com.vn/X1YD1JTJ,0,1,0.85583484,FP
+417,Moi Anh THANG tham gia khao sat Danh gia BHX tren App Store. Nhan phieu mua hang [MONEY]. Link Khao Sat: https:// bachhoaxanh.com/s/bPhcSP,0,1,0.9328152,FP
+421,"[TB] Thuê bao của Quý khách là số liên hệ trên hợp đồng Dịch vụ cố định (mã HD [NUMBER]) và đang chặn 1 chiều. Nếu Quý khách có yêu cầu thay đổi số liên hệ mới, vui lòng truy cập My Viettel tại https://viettel.vn/thaydoisdt hoặc liên hệ [NUMBER] (O₫). Trân trọng.",0,1,0.6831037,FP
+422,"[KHAOSAT] Quy khach co dong y voi nhan dinh ""VIETTEL da ho tro tich cuc de giup Quy khach dang ky dich vu Chuyen vung quoc te mot cach de dang"". Vui long nhap so diem tu 1 den 7 va phan hoi lai tin nhan nay (mien phi): 6-7: Dong y 4-5: Binh thuong 1-3: Khong dong y",0,1,0.67485654,FP
+424,"Ban vao ngay pkwin https:// m.[NUMBER].com/Account/Register? f=[NUMBER] dang ki tai khoan nhan code [MONEY], nap dau tang 100% trai nghiem casino, no hu hay nhat.",0,1,0.95411813,FP
+425,"Dạ anh ơi, em gửi thông tin lúc nào anh có người quen cần lắp mạng giới thiệu em với, chốt xong em gửi tặng 1 tháng cước cho nhà mình hoặc [MONEY] tiền mặt, nhà anh cần lắp thì em sẽ chiết khấu vào chi phí nhà mình luôn ạ. sdt em [NUMBER] đây nếu có hoặc cần thì liên hệ em ngay nhé, em cảm ơn ạ! [NUMBER]",0,1,0.9689555,FP
+428,Thong bao tu VI VAY: Hom nay la ngay cuoi cung thanh toan HDCC. Vui long thanh toan qua ung dung. http://bit.ly/4wRyU1E,0,1,0.87141204,FP
+446,"Spa Hà ưu đãi 70% gói chăm sóc da dịp lễ, tặng kèm 2 buổi trị liệu. Gọi [NUMBER] đặt lịch ngay hôm nay.",1,0,0.21471618,FN
+460,"Spa Trang ưu đãi 70% gói chăm sóc da dịp lễ, tặng kèm 2 buổi trị liệu. Gọi [NUMBER] đặt lịch ngay hôm nay.",1,0,0.27901968,FN
+469,"Spa Mai ưu đãi 70% gói chăm sóc da dịp lễ, tặng kèm 2 buổi trị liệu. Gọi [NUMBER] đặt lịch ngay hôm nay.",1,0,0.24352427,FN
+471,"Spa Hùng ưu đãi 70% gói chăm sóc da dịp lễ, tặng kèm 2 buổi trị liệu. Gọi [NUMBER] đặt lịch ngay hôm nay.",1,0,0.24099466,FN
+513,wYsDangKj0k33TangKMai277K A PJpiH.Fubidv.com pQgroupsgooglecom,1,0,0.4669494,FN
+522,"[QC]QK du dieu kien vay tieu dung den [MONEY] VND, ls uu dai tu EASY CREDIT (EVN Finance). Soan Y gui [NUMBER] de DK vay va dong y cho MobiFone chia se tt thue bao de ho tro tham dinh khoan vay.Tu choi quang cao tu EASY CREDIT, soan TC EASY CREDIT gui [NUMBER].",1,0,0.024230001,FN
+528,"PHONG PHAP LY tu UBND BEN TRE Chung toi tiep nhan ho so vi pham cua Ong/Ba [NAME] sn [DATE] tu ben cho vay. Yeu cau ong ba chuan bi hinh chan dung 3x4, CCCD gan chip co photo, co mat tai dia chi ho khau de co quan chuc nang gui don trieu tap dan su trong [TIME] tiep theo. De tranh phat sinh rui ro de nghi thanh toan GAP.",1,0,0.43238437,FN
+529,"CANH CAO LAN CUOI Can Cu Theo BO HINH SU Khoan 1, Dieu 139-141 dua tren Quyet Dinh [NUMBER]/[NUMBER]-TTCP ""HANH VI LUA DAO CHIEM DOAT TAI SAN"" Doi tuong [NAME] [DATE]. CO TINH TRI HOAN keo dai thoi gian THANH TOAN NO. Truoc [TIME] ngay hom nay van chua ra xu ly khoan vay, Ngan Hang chinh thuc gui HO SO ben Thu Ba Xu Ly.",1,0,0.2511348,FN
+531,Qua cong tac dieu tra tim kiem tai dia phuong chung toi da co du dieu kien va co so de nho Cong An vao cuoc ho tro dieu tra trong qua trinh lien he Ong/Ba [NAME] [DATE] va nguoi than lien tuc/tat nguon khoa may tron tranh nghia vu thanh toan. Yeu cau Ong/Ba cung nhung nguoi lien quan khong roi khoi dia phuong BEN TRE trong vong [TIME] (tinh tu khi nhan duoc thong bao) de lam viec truc tiep voi dai dien TO CHUC TIN DUNG ve viec cham dut va boi thuong cho ben NH. Tran trong!.,1,0,0.13064848,FN
+532,PHONG DIEU TRA TIN DUNG Canh Bao. Ho so tin dung [NAME] [DATE] co dau hieu [NAME] -CHIEM DOAT TAI SAN theo dieu 175 BLHS_100/[NUMBER]/QH13. De nghi ong ba thanh toan GAP so no qua han. Sau thoi gian tren chung toi se hoan tat thu tuc phap ly chuyen cho Co Quan Chuc Nang dieu tra xu ly. Tran trong!,1,0,0.04628187,FN
+541,VP: Điểm Diamond sắp đến hạn. Truy cập vp-diamond-vn-diem.com,1,0,0.43244743,FN
+547,"Chung toi da nhieu lan co gang lien lac voi ban! Ban co [MONEY] + 59 vong quay, thoi han chi con [TIME]. https://a8858.com/index?[REDACTED]",1,0,0.1123816,FN

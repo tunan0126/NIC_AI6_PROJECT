@@ -1,0 +1,64 @@
+{
+  "scope": "Nguyên mẫu UI; kết quả giả lập. Chưa usability test người thật, screen reader, API, xác thực hoặc cloud.",
+  "date": "2026-11-05",
+  "tests": [
+    {
+      "name": "C01 - Nội dung rỗng: lỗi sát trường, focus đúng, không có kết quả giả",
+      "status": "PASS"
+    },
+    {
+      "name": "C02 - Loading, kết quả và giải thích điểm; không lưu mặc định",
+      "status": "PASS"
+    },
+    {
+      "name": "C03 - Lưu lịch sử opt-in; A và B có lịch sử khác nhau",
+      "status": "PASS"
+    },
+    {
+      "name": "C04 - Quy tắc cá nhân ưu tiên, không lan sang tài khoản B",
+      "status": "PASS"
+    },
+    {
+      "name": "C05 - Xung đột chặn/cho phép: hủy giữ quy tắc cũ; xác nhận thay thế",
+      "status": "PASS"
+    },
+    {
+      "name": "C06 - Báo sai: nhãn đề xuất, modal bàn phím và thông báo chờ rà soát",
+      "status": "PASS"
+    },
+    {
+      "name": "C07 - Lỗi kết nối: giữ bản nháp và có thể thử lại",
+      "status": "PASS"
+    },
+    {
+      "name": "C08 - Sửa nội dung / đổi mô hình xóa kết quả cũ",
+      "status": "PASS"
+    },
+    {
+      "name": "C09 - Chuyển tài khoản khi đang chờ không nhận kết quả từ A",
+      "status": "PASS"
+    },
+    {
+      "name": "C10 - Xóa lịch sử cần xác nhận và chỉ xóa tài khoản hiện tại",
+      "status": "PASS"
+    },
+    {
+      "name": "C11 - Văn bản tùy ý không bị gán điểm từ khóa giả",
+      "status": "PASS"
+    },
+    {
+      "name": "C12 - Sửa đầu vào khi đang chờ hủy kết quả đã lỗi thời",
+      "status": "PASS"
+    },
+    {
+      "name": "C13 - Desktop 1280/1366/1440/1920px không tràn; CTA trong màn 1366x768",
+      "status": "PASS"
+    },
+    {
+      "name": "C14 - Liên kết bỏ qua điều hướng dùng được bằng bàn phím",
+      "status": "PASS"
+    }
+  ],
+  "passed": 14,
+  "total": 14
+}

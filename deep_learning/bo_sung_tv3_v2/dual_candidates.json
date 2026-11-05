@@ -1,0 +1,68 @@
+{
+  "lstm_dual_42": {
+    "architecture": "lstm",
+    "seed": 42,
+    "threshold": 0.5,
+    "model_file": "models/lstm_dual_42.keras",
+    "model_sha256": "dbc817cf93bc8c552c26dacf40304634c6472387e729bf76c2a91f22fcd23937",
+    "eligible": false,
+    "legacy_regression_release_errors": 0,
+    "validation_source": {
+      "Precision": 0.9178,
+      "Recall": 0.9437,
+      "F1": 0.9306,
+      "TN": 158,
+      "FP": 6,
+      "FN": 4,
+      "TP": 67,
+      "ROC_AUC": 0.9801,
+      "PR_AUC": 0.9329
+    },
+    "validation_authored": {
+      "Precision": 0.8824,
+      "Recall": 0.9375,
+      "F1": 0.9091,
+      "TN": 28,
+      "FP": 4,
+      "FN": 2,
+      "TP": 30,
+      "ROC_AUC": 0.9424,
+      "PR_AUC": 0.9321
+    },
+    "epochs_run": 13,
+    "restored_epoch": 8
+  },
+  "conv1d_dual_42": {
+    "architecture": "conv1d",
+    "seed": 42,
+    "threshold": 0.3785795569419861,
+    "model_file": "models/conv1d_dual_42.keras",
+    "model_sha256": "a60908e56f92edeab92edbb2ac1c5b49e766e6740929dfaf8d89899b9249f161",
+    "eligible": false,
+    "legacy_regression_release_errors": 0,
+    "validation_source": {
+      "Precision": 0.8904,
+      "Recall": 0.9155,
+      "F1": 0.9028,
+      "TN": 156,
+      "FP": 8,
+      "FN": 6,
+      "TP": 65,
+      "ROC_AUC": 0.983,
+      "PR_AUC": 0.9538
+    },
+    "validation_authored": {
+      "Precision": 0.8824,
+      "Recall": 0.9375,
+      "F1": 0.9091,
+      "TN": 28,
+      "FP": 4,
+      "FN": 2,
+      "TP": 30,
+      "ROC_AUC": 0.9688,
+      "PR_AUC": 0.9756
+    },
+    "epochs_run": 15,
+    "restored_epoch": 10
+  }
+}

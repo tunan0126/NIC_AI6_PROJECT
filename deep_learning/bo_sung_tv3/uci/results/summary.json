@@ -1,0 +1,75 @@
+{
+  "language": "uci",
+  "dataset_id": "uci-sms-seed42-original-random-split",
+  "selected_by_validation": "conv1d",
+  "models": {
+    "lstm": {
+      "test": {
+        "Precision": 0.9077,
+        "Recall": 0.9008,
+        "F1": 0.9042,
+        "ROC_AUC": 0.9807,
+        "PR_AUC": 0.9194,
+        "TN": 892,
+        "FP": 12,
+        "FN": 13,
+        "TP": 118
+      },
+      "validation": {
+        "Precision": 0.9265,
+        "Recall": 0.9692,
+        "F1": 0.9474,
+        "ROC_AUC": 0.998,
+        "PR_AUC": 0.9854,
+        "TN": 447,
+        "FP": 5,
+        "FN": 2,
+        "TP": 63
+      },
+      "threshold": 0.5635080337524414,
+      "batch_inference_seconds": 0.4504
+    },
+    "conv1d": {
+      "test": {
+        "Precision": 0.9375,
+        "Recall": 0.916,
+        "F1": 0.9266,
+        "ROC_AUC": 0.9864,
+        "PR_AUC": 0.9723,
+        "TN": 896,
+        "FP": 8,
+        "FN": 11,
+        "TP": 120
+      },
+      "validation": {
+        "Precision": 0.9552,
+        "Recall": 0.9846,
+        "F1": 0.9697,
+        "ROC_AUC": 0.9991,
+        "PR_AUC": 0.9945,
+        "TN": 449,
+        "FP": 3,
+        "FN": 1,
+        "TP": 64
+      },
+      "threshold": 0.44142407178878784,
+      "batch_inference_seconds": 0.152
+    }
+  },
+  "ml_baseline": {
+    "Precision": 1.0,
+    "Recall": 0.9237,
+    "F1": 0.9603,
+    "ROC_AUC": 0.9977,
+    "PR_AUC": 0.989,
+    "TN": 904,
+    "FP": 0,
+    "FN": 10,
+    "TP": 121
+  },
+  "train_val_test": {
+    "train": 3619,
+    "val": 517,
+    "test": 1035
+  }
+}

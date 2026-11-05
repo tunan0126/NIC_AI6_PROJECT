@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartSMS AI - Hệ thống Phân tích & Lọc Tin nhắn Rác</title>
+  <link rel="stylesheet" href="/static/app.css?v=prod-1">
+  <script src="/static/app.js?v=prod-1" defer></script>
+</head>
+<body>
+
+<!-- Màn hình Đăng nhập / Đăng ký -->
+<section id="auth-view" class="auth-view">
+  <div class="auth-container">
+    <div class="auth-brand">
+      <div class="brand-badge-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+        </svg>
+      </div>
+      <h1>SmartSMS AI</h1>
+      <p class="auth-subtitle">Hệ thống Trí tuệ Nhân tạo Phân tích & Nhận diện Tin nhắn Rác</p>
+    </div>
+
+    <div class="auth-card">
+      <h2 id="auth-title">Đăng nhập hệ thống</h2>
+      <form id="auth-form" novalidate>
+        <div id="display-field" hidden>
+          <label class="field" for="display-name">Tên hiển thị</label>
+          <input id="display-name" maxlength="60" autocomplete="nickname" placeholder="Ví dụ: Nguyễn Văn A">
+        </div>
+        <label class="field" for="username">Tên đăng nhập</label>
+        <input id="username" maxlength="32" autocomplete="username" placeholder="Nhập tài khoản" required>
+        <label class="field" for="password">Mật khẩu</label>
+        <input id="password" type="password" minlength="10" maxlength="128" autocomplete="current-password" placeholder="Tối thiểu 10 ký tự" required>
+        <div id="confirm-field" hidden>
+          <label class="field" for="password-confirm">Xác nhận mật khẩu</label>
+          <input id="password-confirm" type="password" autocomplete="new-password" maxlength="128" placeholder="Nhập lại mật khẩu">
+        </div>
+        <p id="auth-error" class="error" role="alert" hidden></p>
+        <button id="auth-submit" class="primary submit" type="submit">Đăng nhập</button>
+      </form>
+      <div class="auth-actions">
+        <button id="auth-toggle" class="auth-toggle" type="button">Chưa có tài khoản? Đăng ký ngay</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Màn hình chính ứng dụng -->
+<div id="app-view" hidden>
+  <a class="skip" href="#main">Bỏ qua đến nội dung chính</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+          </svg>
+        </div>
+        <div class="brand-titles">
+          <span class="brand-name">SmartSMS AI</span>
+          <span class="brand-tag">Hệ thống Trực tuyến</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <button class="nav" data-page="check" aria-current="page">Kiểm tra tin nhắn</button>
+        <button class="nav" data-page="history">Lịch sử phân tích</button>
+        <details id="manage-menu" class="manage-menu">
+          <summary>Cài đặt & Quản lý</summary>
+          <div class="menu-items">
+            <button class="nav" data-page="rules">Bộ lọc người gửi</button>
+            <button class="nav" data-page="feedback">Phản hồi phân loại</button>
+            <button class="nav" data-page="guide">Tài liệu kỹ thuật</button>
+          </div>
+        </details>
+      </nav>
+
+      <div class="account">
+        <span class="user-badge" id="account-name">Người dùng</span>
+        <button id="logout" class="quiet-btn">Đăng xuất</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+    <!-- Trang Kiểm Tra -->
+    <section id="page-check" class="page">
+      <div class="page-heading">
+        <h1>Phân tích & Phát hiện Tin nhắn Rác</h1>
+        <p class="intro">Nhập nội dung tin nhắn SMS cần kiểm tra. Mô hình AI sẽ tự động phân loại và đánh giá rủi ro theo thời gian thực.</p>
+      </div>
+
+      <div class="workspace">
+        <form id="check-form" class="panel input-panel" novalidate>
+          <div class="editor-heading">
+            <label for="text" class="field">Nội dung tin nhắn</label>
+            <button id="clear-text" class="text-button" type="button" disabled>Xóa trắng</button>
+          </div>
+
+          <textarea id="text" maxlength="2000" aria-required="true" aria-describedby="text-help text-error" placeholder="Nhập hoặc dán nội dung tin nhắn SMS tại đây để AI phân tích..."></textarea>
+
+          <div class="editor-meta">
+            <span id="text-help"><span id="count">0</span> / 2.000 ký tự</span>
+          </div>
+
+          <p id="text-error" class="error" role="alert" hidden></p>
+
+          <div class="samples" aria-label="Tin mẫu">
+            <span class="samples-title">Mẫu thử nhanh:</span>
+            <button type="button" data-sample="ham" class="chip chip-ham">Tin an toàn</button>
+            <button type="button" data-sample="spam" class="chip chip-spam">Tin rác / Lừa đảo</button>
+          </div>
+
+          <details id="check-options" class="check-options">
+            <summary>
+              <span class="opt-label">Cấu hình mô hình AI</span>
+              <span id="options-summary">Tiếng Việt · ML</span>
+            </summary>
+            <div class="options-body">
+              <div class="row">
+                <div>
+                  <label for="language" class="field">Ngôn ngữ</label>
+                  <select id="language">
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="uci">Tiếng Anh (UCI Dataset)</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="model" class="field">Kiến trúc AI</label>
+                  <select id="model">
+                    <option value="ml">Machine Learning (SVM + TF-IDF v2)</option>
+                    <option value="dl">Deep Learning (Neural Network Conv1D)</option>
+                  </select>
+                </div>
+              </div>
+              <label for="sender" class="field">Người gửi <span class="optional">(Tùy chọn)</span></label>
+              <input id="sender" maxlength="80" autocomplete="off" placeholder="Ví dụ: DEMO-A, Vietcombank, BrandName...">
+              <button type="button" data-sample="rule" style="display:none"></button>
+            </div>
+          </details>
+
+          <div class="submit-area">
+            <label class="check">
+              <input id="save" type="checkbox" checked>
+              <span>Lưu kết quả phân tích vào lịch sử</span>
+            </label>
+            <button id="submit" class="primary submit" type="submit">
+              <span>Phân tích tin nhắn</span>
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </form>
+
+        <section class="panel result-panel" id="result" aria-labelledby="result-title">
+          <h2 id="result-title">Kết quả đánh giá AI</h2>
+          <div class="empty">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+            </svg>
+            <strong>Hệ thống sẵn sàng</strong>
+            <p>Nhập tin nhắn hoặc bấm vào mẫu thử nhanh để bắt đầu phân tích.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Trang Lịch Sử -->
+    <section id="page-history" class="page" hidden>
+      <div class="toolbar">
+        <div>
+          <h1>Lịch sử phân tích</h1>
+          <p class="intro">Danh sách các tin nhắn đã được AI phân loại và lưu trữ.</p>
+        </div>
+        <button id="clear-history" class="danger">Xóa tất cả lịch sử</button>
+      </div>
+      <div class="panel">
+        <div class="filter-bar">
+          <label class="field" for="filter">Lọc phân loại:</label>
+          <select id="filter">
+            <option value="all">Tất cả kết quả</option>
+            <option value="spam">Chỉ tin nhắn Rác (Spam)</option>
+            <option value="ham">Chỉ tin Hợp lệ (Ham)</option>
+          </select>
+        </div>
+        <div id="history-list"></div>
+        <div class="pager">
+          <button id="prev-page">← Trang trước</button>
+          <span id="page-info"></span>
+          <button id="next-page">Trang sau →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trang Quy Tắc Chặn/Cho phép -->
+    <section id="page-rules" class="page" hidden>
+      <div class="toolbar">
+        <div>
+          <h1>Bộ lọc người gửi tùy chỉnh</h1>
+          <p class="intro">Thiết lập quy tắc Chặn hoặc Cho phép đối với từng đầu số/tên người gửi cụ thể.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <form id="rule-form" class="rule-form">
+          <label for="rule-sender" class="field">Tên hoặc Số người gửi
+            <input id="rule-sender" required maxlength="80" placeholder="Ví dụ: DEMO-A, 0909xxxxxx">
+          </label>
+          <label for="rule-type" class="field">Hành động
+            <select id="rule-type">
+              <option value="block">Chặn (Đánh dấu Spam)</option>
+              <option value="allow">Cho phép (Bỏ qua kiểm tra)</option>
+            </select>
+          </label>
+          <button class="primary" type="submit">Thêm quy tắc</button>
+        </form>
+        <div id="rule-list"></div>
+      </div>
+    </section>
+
+    <!-- Trang Phản Hồi -->
+    <section id="page-feedback" class="page" hidden>
+      <div class="toolbar">
+        <div>
+          <h1>Phản hồi kết quả phân loại</h1>
+          <p class="intro">Các báo cáo phân loại sai được ghi nhận để cải thiện độ chính xác của mô hình.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <div id="feedback-list"></div>
+      </div>
+    </section>
+
+    <!-- Trang Tài Liệu & Kiến Trúc -->
+    <section id="page-guide" class="page" hidden>
+      <div class="toolbar">
+        <div>
+          <h1>Kiến trúc hệ thống & Tài liệu kỹ thuật</h1>
+          <p class="intro">Tổng quan về các mô hình AI và quy trình xử lý ngôn ngữ tự nhiên.</p>
+        </div>
+      </div>
+      <div class="panel guide-panel">
+        <div class="guide-grid">
+          <div class="guide-card">
+            <h3>1. Machine Learning (SVM + TF-IDF)</h3>
+            <p>Sử dụng thuật toán Support Vector Machine (LinearSVC) kết hợp trích xuất đặc trưng đa mức (Word N-gram & Character N-gram), chuẩn hóa văn bản tiếng Việt tự động.</p>
+          </div>
+          <div class="guide-card">
+            <h3>2. Deep Learning (Conv1D Neural Network)</h3>
+            <p>Mạng nơ-ron tích chập 1D kết hợp tầng TextVectorization xử lý chuỗi ký tự và ngữ cảnh câu, tối ưu cho nhận diện mẫu tin nhắn spam biến tướng.</p>
+          </div>
+          <div class="guide-card">
+            <h3>3. Cơ chế Bảo mật & Riêng tư</h3>
+            <p>Tự động che chắn các thông tin định danh cá nhân (Số điện thoại, địa chỉ email, mã OTP) trước khi lưu vào lịch sử.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      SmartSMS AI · Hệ thống Bảo vệ & Phân tích Tin nhắn Rác bằng Trí tuệ Nhân tạo
+    </footer>
+  </main>
+</div>
+
+<!-- Dialogs -->
+<dialog id="feedback-dialog" aria-labelledby="feedback-title">
+  <form id="feedback-form">
+    <h2 id="feedback-title">Báo phân loại sai</h2>
+    <p class="dialog-desc">Ý kiến đóng góp của bạn giúp mô hình AI học hỏi và ngày càng chính xác hơn.</p>
+    <label class="field" for="correct-label">Nhãn chính xác</label>
+    <select id="correct-label" required>
+      <option value="ham">Tin Hợp lệ (An toàn)</option>
+      <option value="spam">Tin nhắn Rác (Spam / Lừa đảo)</option>
+    </select>
+    <label class="field" for="feedback-note">Ghi chú bổ sung <span class="optional">(Tùy chọn)</span></label>
+    <textarea id="feedback-note" maxlength="300" placeholder="Mô tả lý do tại sao bạn cho rằng kết quả phân loại bị sai..."></textarea>
+    <div class="buttons">
+      <button type="button" data-close="feedback-dialog">Hủy</button>
+      <button class="primary" type="submit">Gửi phản hồi</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="confirm-dialog" aria-labelledby="confirm-title">
+  <h2 id="confirm-title">Xác nhận thao tác</h2>
+  <p id="confirm-text"></p>
+  <div class="buttons">
+    <button type="button" data-close="confirm-dialog">Hủy</button>
+    <button id="confirm-yes" class="primary">Xác nhận</button>
+  </div>
+</dialog>
+
+</body>
+</html>

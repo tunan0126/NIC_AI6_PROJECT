@@ -1,0 +1,61 @@
+{
+  "method": "WCAG relative luminance of specified opaque sRGB colors; not a full accessibility audit",
+  "pairs": [
+    {
+      "pair": "Body text",
+      "foreground": "#172338",
+      "background": "#ffffff",
+      "ratio": 15.74,
+      "target": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Secondary text",
+      "foreground": "#53647b",
+      "background": "#ffffff",
+      "ratio": 6.04,
+      "target": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "CTA label",
+      "foreground": "#ffffff",
+      "background": "#0957d0",
+      "ratio": 6.39,
+      "target": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Spam label",
+      "foreground": "#805000",
+      "background": "#fff0c9",
+      "ratio": 6.05,
+      "target": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Ham label",
+      "foreground": "#17603d",
+      "background": "#e3f3e9",
+      "ratio": 6.58,
+      "target": 4.5,
+      "passes": true
+    },
+    {
+      "pair": "Input outline",
+      "foreground": "#7e8fa6",
+      "background": "#ffffff",
+      "ratio": 3.3,
+      "target": 3,
+      "passes": true
+    },
+    {
+      "pair": "Focus outline",
+      "foreground": "#8c3bd0",
+      "background": "#f3f6fb",
+      "ratio": 5.31,
+      "target": 3,
+      "passes": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "conv1d",
+  "representation": "character",
+  "seed": 42,
+  "threshold": 0.47758248448371887,
+  "model_file": "models/conv1d_char_42.keras",
+  "model_sha256": "5a44613a26f25fb92cac4b72ff6c239fbb960d6bfcf0bf67c5c176174cd74365",
+  "eligible": false,
+  "validation_source": {
+    "Precision": 0.9194,
+    "Recall": 0.8028,
+    "F1": 0.8571,
+    "TN": 159,
+    "FP": 5,
+    "FN": 14,
+    "TP": 57,
+    "ROC_AUC": 0.9879,
+    "PR_AUC": 0.9722
+  },
+  "validation_authored": {
+    "Precision": 0.9286,
+    "Recall": 0.8125,
+    "F1": 0.8667,
+    "TN": 30,
+    "FP": 2,
+    "FN": 6,
+    "TP": 26,
+    "ROC_AUC": 0.9268,
+    "PR_AUC": 0.9419
+  },
+  "epochs_run": 12,
+  "restored_epoch": 7
+}

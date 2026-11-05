@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "api_integration_tests": 15,
+  "browser_tests": 13,
+  "real_models": "ML/DL × vi/uci; packaged loaders compared",
+  "local_url": "http://127.0.0.1:8080",
+  "docker": "COPY sources and compose YAML statically verified; Docker Engine unavailable, not built/run",
+  "cloud_deployed": false,
+  "prior_packages_unchanged": true,
+  "semantic_regression_tests": 2,
+  "semantic_cases_per_model": 24,
+  "total_tests": 30,
+  "vi_revision": "active; ML + DL; original packages unchanged"
+}

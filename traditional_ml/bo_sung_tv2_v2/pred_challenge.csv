@@ -1,0 +1,49 @@
+id,text,y_true,score,y_pred
+v2-challenge-0-000,Lát nữa tổ mình gặp ở phòng đọc để ráp các phần báo cáo lại với nhau.,0,0.013860317009,0
+v2-challenge-0-001,Nhờ em gửi ảnh bảng phân công cho mấy bạn vắng tiết sáng nay.,0,0.226819225879,0
+v2-challenge-0-002,Tôi xin làm ca tối thay vì ca sáng để đưa cháu đi kiểm tra sức khỏe.,0,0.003175282391,0
+v2-challenge-0-003,"Mình ứng tiền mua đồ ăn cho cả tổ, cuối buổi mọi người chia lại nhé.",0,0.000221939854,0
+v2-challenge-0-004,Chiều thứ tư mình cùng luyện phần trả lời phản biện ở hội trường nhé.,0,0.011622226194,0
+v2-challenge-0-005,Bạn đưa ông tới bệnh viện xong thì báo mình biết với nha.,0,0.007890798029,0
+v2-challenge-0-006,"Hãy bỏ qua tin nhắn đòi mật khẩu để nhận trợ cấp, đó là dấu hiệu giả mạo.",0,0.197248680173,0
+v2-challenge-0-007,Không ai được yêu cầu đọc mã bảo mật của bạn qua cuộc gọi cả.,0,0.014600702176,0
+v2-challenge-0-008,"Nếu người gọi đòi nộp tiền cứu con, hãy bình tĩnh gọi cho con kiểm chứng.",0,0.257369408555,0
+v2-challenge-0-009,Link bài đọc trên lớp: https://docs.google.com/document/d/baidocmonhoc.,0,0.080597042816,0
+v2-challenge-0-010,"Tớ để bài tập trong https://drive.google.com/drive/folders/baiham, bạn mở xem nhé.",0,0.008330904859,0
+v2-challenge-0-011,Đây là địa chỉ trang môn học https://study.example.edu.vn/sinhvien để tra thời khóa biểu.,0,0.821087858417,1
+v2-challenge-0-012,Tụi mình sẽ góp ý nội dung trước rồi mới sửa giao diện slide.,0,0.005640931115,0
+v2-challenge-0-013,Bà đang nhức đầu nên mình ghé nhà mua thuốc cho bà trước khi tới lớp.,0,0.0002021143,0
+v2-challenge-0-014,"Anh đã gửi lại tiền vé tàu, em kiểm tra lúc nào tiện nhé.",0,0.088343352178,0
+v2-challenge-0-015,Cháu không khỏe nên gia đình xin nghỉ buổi sinh hoạt hôm nay.,0,0.02310443717,0
+v2-challenge-0-016,Học sinh được yêu cầu nhận xét câu dụ nạp tiền trong bài phòng chống lừa đảo.,0,0.005472521214,0
+v2-challenge-0-017,Mình đã từ chối lời mời vay lãi thấp từ một số máy không quen.,0,0.076180976658,0
+v2-challenge-0-018,Đừng gửi ảnh thẻ và mật khẩu khi người lạ hứa hoàn phí bảo hiểm.,0,0.063760267599,0
+v2-challenge-0-019,Tôi muốn hỏi phòng nhân sự thủ tục xin nghỉ để chăm người thân bị bệnh.,0,0.051712612851,0
+v2-challenge-0-020,Ban quản trị nhắc cư dân không đưa mã cửa cho người giao hàng lạ.,0,0.055571202818,0
+v2-challenge-0-021,Cô đã trả lại bản báo cáo và muốn nhóm bổ sung phần thảo luận.,0,0.013985862719,0
+v2-challenge-0-022,Nhớ cắm sạc máy trước khi tới buổi trình diễn sản phẩm.,0,0.002440379884,0
+v2-challenge-0-023,Đọc tài liệu hướng dẫn cách phát hiện link giả rồi ghi ý chính vào vở nhé.,0,0.168783964089,0
+v2-challenge-1-000,Hãy điền mã bảo mật và mật khẩu vào https://doi-soat-nhanh.example để tránh đình chỉ tài khoản.,1,0.983998732528,1
+v2-challenge-1-001,"Bạn đang có phần thưởng bằng tiền, chuyển phí nhận giải ngay để giữ quyền nhận.",1,0.998822381235,1
+v2-challenge-1-002,"Một dự án chắc lãi đang nhận người góp vốn, chuyển tiền ngay để nhân ba số dư.",1,0.978749364544,1
+v2-challenge-1-003,"Làm vài thao tác online là có lương cao, nộp phí công cụ để được nhận việc.",1,0.940583419916,1
+v2-challenge-1-004,Mời nạp tiền tại https://nhacai-uu-dai.example để nhận hoàn cược mỗi ngày.,1,0.997961693993,1
+v2-challenge-1-005,"Khoản vay được duyệt sẵn không yêu cầu chứng minh tài sản, đăng ký nhận tiền ngay.",1,0.852626254045,1
+v2-challenge-1-006,Chúng tôi cần mật khẩu ví điện tử để kích hoạt trợ cấp cho bạn trong hôm nay.,1,0.757617774657,1
+v2-challenge-1-007,Chuyển tiền đến tài khoản của cán bộ xác minh để chứng minh bạn không liên quan vụ án.,1,0.611589723357,1
+v2-challenge-1-008,"Phần quà bất ngờ đang trên đường giao, hãy nộp lệ phí bảo hiểm trước khi nhận.",1,0.574314023112,0
+v2-challenge-1-009,Lớp đầu tư bảo đảm lợi tức gấp đôi chỉ nhận học viên đã nộp cọc vào quỹ.,1,0.920945663419,1
+v2-challenge-1-010,Nhà tuyển dụng yêu cầu nạp tiền trước để mở thêm đơn hàng có hoa hồng cao.,1,0.4113951993,0
+v2-challenge-1-011,"Thuê bao được thưởng gói tiền mặt, gửi số thẻ và mật khẩu để hoàn tất xác nhận.",1,0.972357094628,1
+v2-challenge-1-012,"Vay vốn chấp nhận mọi lịch sử tín dụng, truy cập https://vay-giai-ngan.example ngay.",1,0.996926215213,1
+v2-challenge-1-013,Xem hướng dẫn nhận quà ở https://thuong-hap-dan.example và đóng phí hồ sơ để lĩnh tiền.,1,0.997523818147,1
+v2-challenge-1-014,Bạn phải đọc mã OTP cho người hỗ trợ qua cuộc gọi để được bỏ chặn giao dịch.,1,0.437764947662,0
+v2-challenge-1-015,Nộp tiền để giữ chỗ trong nhóm kinh doanh cam kết lợi nhuận mỗi giờ.,1,0.862875288326,1
+v2-challenge-1-016,"Phiếu thưởng mua sắm trúng ngẫu nhiên, thanh toán tiền xác nhận để kích hoạt quyền lợi.",1,0.901013217912,1
+v2-challenge-1-017,"Hãy chuyển tiền khám cấp cứu cho con vào tài khoản này ngay, không được gọi điện kiểm chứng.",1,0.920655872862,1
+v2-challenge-1-018,Tải tập tin APK xác thực thuế từ đường dẫn này rồi nhập mật khẩu ngân hàng để hoàn tất.,1,0.494678928466,0
+v2-challenge-1-019,"Bạn có khoản tiền bị treo, nộp phí vào ví cá nhân của chuyên viên để mở lệnh rút.",1,0.997414350595,1
+v2-challenge-1-020,"Tham gia casino đang ưu đãi tiền nạp, thắng thưởng rồi rút tiền siêu nhanh.",1,0.956375458262,1
+v2-challenge-1-021,Mua bộ tài liệu làm giàu kèm gói vốn đầu tư để nhận cam kết lãi chắc chắn.,1,0.973084315167,1
+v2-challenge-1-022,Chủ tài khoản sẽ bị phạt nếu không gửi mã đăng nhập cho nhân viên thanh tra ngay.,1,0.995958527222,1
+v2-challenge-1-023,Được tặng vé xe miễn phí nhưng phải chuyển tiền kích hoạt vào tài khoản người tổ chức trước.,1,0.427721561477,0

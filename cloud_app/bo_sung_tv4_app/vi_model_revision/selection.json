@@ -1,0 +1,785 @@
+[
+  {
+    "representation": "word",
+    "C": 1.0,
+    "authored_weight": 1.0,
+    "threshold": 0.654694933775,
+    "original_validation": {
+      "Precision": 1.0,
+      "Recall": 0.831,
+      "F1": 0.9077,
+      "ROC_AUC": 0.995,
+      "PR_AUC": 0.989,
+      "TN": 164,
+      "FP": 0,
+      "FN": 12,
+      "TP": 59
+    },
+    "authored_validation": {
+      "Precision": 0.8571,
+      "Recall": 0.9,
+      "F1": 0.878,
+      "ROC_AUC": 0.915,
+      "PR_AUC": 0.9114,
+      "TN": 17,
+      "FP": 3,
+      "FN": 2,
+      "TP": 18
+    },
+    "eligible": false
+  },
+  {
+    "representation": "word",
+    "C": 1.0,
+    "authored_weight": 3.0,
+    "threshold": 0.605181636558,
+    "original_validation": {
+      "Precision": 1.0,
+      "Recall": 0.8873,
+      "F1": 0.9403,
+      "ROC_AUC": 0.9963,
+      "PR_AUC": 0.9921,
+      "TN": 164,
+      "FP": 0,
+      "FN": 8,
+      "TP": 63
+    },
+    "authored_validation": {
+      "Precision": 0.9091,
+      "Recall": 1.0,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9725,
+      "PR_AUC": 0.9642,
+      "TN": 18,
+      "FP": 2,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": false
+  },
+  {
+    "representation": "word",
+    "C": 1.0,
+    "authored_weight": 6.0,
+    "threshold": 0.563366610582,
+    "original_validation": {
+      "Precision": 0.9848,
+      "Recall": 0.9155,
+      "F1": 0.9489,
+      "ROC_AUC": 0.997,
+      "PR_AUC": 0.9936,
+      "TN": 163,
+      "FP": 1,
+      "FN": 6,
+      "TP": 65
+    },
+    "authored_validation": {
+      "Precision": 0.9091,
+      "Recall": 1.0,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9775,
+      "PR_AUC": 0.9729,
+      "TN": 18,
+      "FP": 2,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": false
+  },
+  {
+    "representation": "word",
+    "C": 3.0,
+    "authored_weight": 1.0,
+    "threshold": 0.712682906008,
+    "original_validation": {
+      "Precision": 1.0,
+      "Recall": 0.8451,
+      "F1": 0.916,
+      "ROC_AUC": 0.9973,
+      "PR_AUC": 0.9943,
+      "TN": 164,
+      "FP": 0,
+      "FN": 11,
+      "TP": 60
+    },
+    "authored_validation": {
+      "Precision": 0.9444,
+      "Recall": 0.85,
+      "F1": 0.8947,
+      "ROC_AUC": 0.9475,
+      "PR_AUC": 0.9409,
+      "TN": 19,
+      "FP": 1,
+      "FN": 3,
+      "TP": 17
+    },
+    "eligible": false
+  },
+  {
+    "representation": "word",
+    "C": 3.0,
+    "authored_weight": 3.0,
+    "threshold": 0.465717871253,
+    "original_validation": {
+      "Precision": 0.9091,
+      "Recall": 0.9859,
+      "F1": 0.9459,
+      "ROC_AUC": 0.9979,
+      "PR_AUC": 0.9956,
+      "TN": 157,
+      "FP": 7,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.7692,
+      "Recall": 1.0,
+      "F1": 0.8696,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9687,
+      "TN": 14,
+      "FP": 6,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word",
+    "C": 3.0,
+    "authored_weight": 6.0,
+    "threshold": 0.466921267594,
+    "original_validation": {
+      "Precision": 0.9091,
+      "Recall": 0.9859,
+      "F1": 0.9459,
+      "ROC_AUC": 0.998,
+      "PR_AUC": 0.9958,
+      "TN": 157,
+      "FP": 7,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.9775,
+      "PR_AUC": 0.9729,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word",
+    "C": 10.0,
+    "authored_weight": 1.0,
+    "threshold": 0.4616274147,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9978,
+      "PR_AUC": 0.9951,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.6897,
+      "Recall": 1.0,
+      "F1": 0.8163,
+      "ROC_AUC": 0.96,
+      "PR_AUC": 0.9536,
+      "TN": 11,
+      "FP": 9,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word",
+    "C": 10.0,
+    "authored_weight": 3.0,
+    "threshold": 0.474468052104,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9976,
+      "PR_AUC": 0.9947,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9687,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word",
+    "C": 10.0,
+    "authored_weight": 6.0,
+    "threshold": 0.480050291005,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9978,
+      "PR_AUC": 0.9951,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9687,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 1.0,
+    "authored_weight": 1.0,
+    "threshold": 0.591225253667,
+    "original_validation": {
+      "Precision": 0.9333,
+      "Recall": 0.9859,
+      "F1": 0.9589,
+      "ROC_AUC": 0.9976,
+      "PR_AUC": 0.9944,
+      "TN": 159,
+      "FP": 5,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.7692,
+      "Recall": 1.0,
+      "F1": 0.8696,
+      "ROC_AUC": 0.925,
+      "PR_AUC": 0.8904,
+      "TN": 14,
+      "FP": 6,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 1.0,
+    "authored_weight": 3.0,
+    "threshold": 0.590053628079,
+    "original_validation": {
+      "Precision": 0.9722,
+      "Recall": 0.9859,
+      "F1": 0.979,
+      "ROC_AUC": 0.9986,
+      "PR_AUC": 0.9968,
+      "TN": 162,
+      "FP": 2,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.9575,
+      "PR_AUC": 0.9503,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 1.0,
+    "authored_weight": 6.0,
+    "threshold": 0.58562407619,
+    "original_validation": {
+      "Precision": 0.9859,
+      "Recall": 0.9859,
+      "F1": 0.9859,
+      "ROC_AUC": 0.9981,
+      "PR_AUC": 0.9952,
+      "TN": 163,
+      "FP": 1,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9735,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 3.0,
+    "authored_weight": 1.0,
+    "threshold": 0.52821159926,
+    "original_validation": {
+      "Precision": 0.9221,
+      "Recall": 1.0,
+      "F1": 0.9595,
+      "ROC_AUC": 0.9989,
+      "PR_AUC": 0.9976,
+      "TN": 158,
+      "FP": 6,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.8,
+      "Recall": 1.0,
+      "F1": 0.8889,
+      "ROC_AUC": 0.9375,
+      "PR_AUC": 0.9255,
+      "TN": 15,
+      "FP": 5,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 3.0,
+    "authored_weight": 3.0,
+    "threshold": 0.588911971945,
+    "original_validation": {
+      "Precision": 0.9722,
+      "Recall": 0.9859,
+      "F1": 0.979,
+      "ROC_AUC": 0.9992,
+      "PR_AUC": 0.9983,
+      "TN": 162,
+      "FP": 2,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.9675,
+      "PR_AUC": 0.9641,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 3.0,
+    "authored_weight": 6.0,
+    "threshold": 0.593092023006,
+    "original_validation": {
+      "Precision": 0.9859,
+      "Recall": 0.9859,
+      "F1": 0.9859,
+      "ROC_AUC": 0.9994,
+      "PR_AUC": 0.9986,
+      "TN": 163,
+      "FP": 1,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.9775,
+      "PR_AUC": 0.9768,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 10.0,
+    "authored_weight": 1.0,
+    "threshold": 0.549403681591,
+    "original_validation": {
+      "Precision": 0.9333,
+      "Recall": 0.9859,
+      "F1": 0.9589,
+      "ROC_AUC": 0.999,
+      "PR_AUC": 0.9978,
+      "TN": 159,
+      "FP": 5,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8,
+      "Recall": 1.0,
+      "F1": 0.8889,
+      "ROC_AUC": 0.955,
+      "PR_AUC": 0.9514,
+      "TN": 15,
+      "FP": 5,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 10.0,
+    "authored_weight": 3.0,
+    "threshold": 0.529390285091,
+    "original_validation": {
+      "Precision": 0.9467,
+      "Recall": 1.0,
+      "F1": 0.9726,
+      "ROC_AUC": 0.9993,
+      "PR_AUC": 0.9985,
+      "TN": 160,
+      "FP": 4,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.9775,
+      "PR_AUC": 0.9768,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "char_wb",
+    "C": 10.0,
+    "authored_weight": 6.0,
+    "threshold": 0.532816603612,
+    "original_validation": {
+      "Precision": 0.9467,
+      "Recall": 1.0,
+      "F1": 0.9726,
+      "ROC_AUC": 0.9994,
+      "PR_AUC": 0.9987,
+      "TN": 160,
+      "FP": 4,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.98,
+      "PR_AUC": 0.9792,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 1.0,
+    "authored_weight": 1.0,
+    "threshold": 0.491785375434,
+    "original_validation": {
+      "Precision": 0.9221,
+      "Recall": 1.0,
+      "F1": 0.9595,
+      "ROC_AUC": 0.9988,
+      "PR_AUC": 0.9974,
+      "TN": 158,
+      "FP": 6,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.6897,
+      "Recall": 1.0,
+      "F1": 0.8163,
+      "ROC_AUC": 0.9425,
+      "PR_AUC": 0.926,
+      "TN": 11,
+      "FP": 9,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 1.0,
+    "authored_weight": 3.0,
+    "threshold": 0.487588306512,
+    "original_validation": {
+      "Precision": 0.9342,
+      "Recall": 1.0,
+      "F1": 0.966,
+      "ROC_AUC": 0.999,
+      "PR_AUC": 0.9977,
+      "TN": 159,
+      "FP": 5,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.7692,
+      "Recall": 1.0,
+      "F1": 0.8696,
+      "ROC_AUC": 0.97,
+      "PR_AUC": 0.962,
+      "TN": 14,
+      "FP": 6,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 1.0,
+    "authored_weight": 6.0,
+    "threshold": 0.514177671063,
+    "original_validation": {
+      "Precision": 0.9459,
+      "Recall": 0.9859,
+      "F1": 0.9655,
+      "ROC_AUC": 0.9989,
+      "PR_AUC": 0.9975,
+      "TN": 160,
+      "FP": 4,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8696,
+      "Recall": 1.0,
+      "F1": 0.9302,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9707,
+      "TN": 17,
+      "FP": 3,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 3.0,
+    "authored_weight": 1.0,
+    "threshold": 0.5,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9989,
+      "PR_AUC": 0.9976,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.7407,
+      "Recall": 1.0,
+      "F1": 0.8511,
+      "ROC_AUC": 0.955,
+      "PR_AUC": 0.9485,
+      "TN": 13,
+      "FP": 7,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 3.0,
+    "authored_weight": 3.0,
+    "threshold": 0.507292148903,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9989,
+      "PR_AUC": 0.9976,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.9725,
+      "PR_AUC": 0.9666,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 3.0,
+    "authored_weight": 6.0,
+    "threshold": 0.477391904937,
+    "original_validation": {
+      "Precision": 0.9221,
+      "Recall": 1.0,
+      "F1": 0.9595,
+      "ROC_AUC": 0.9991,
+      "PR_AUC": 0.998,
+      "TN": 158,
+      "FP": 6,
+      "FN": 0,
+      "TP": 71
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.98,
+      "PR_AUC": 0.9781,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 10.0,
+    "authored_weight": 1.0,
+    "threshold": 0.52458883999,
+    "original_validation": {
+      "Precision": 0.9211,
+      "Recall": 0.9859,
+      "F1": 0.9524,
+      "ROC_AUC": 0.9989,
+      "PR_AUC": 0.9976,
+      "TN": 158,
+      "FP": 6,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.9675,
+      "PR_AUC": 0.9628,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 10.0,
+    "authored_weight": 3.0,
+    "threshold": 0.523033041482,
+    "original_validation": {
+      "Precision": 0.9333,
+      "Recall": 0.9859,
+      "F1": 0.9589,
+      "ROC_AUC": 0.999,
+      "PR_AUC": 0.9978,
+      "TN": 159,
+      "FP": 5,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.975,
+      "PR_AUC": 0.9707,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  },
+  {
+    "representation": "word+char_wb",
+    "C": 10.0,
+    "authored_weight": 6.0,
+    "threshold": 0.5,
+    "original_validation": {
+      "Precision": 0.9459,
+      "Recall": 0.9859,
+      "F1": 0.9655,
+      "ROC_AUC": 0.999,
+      "PR_AUC": 0.9978,
+      "TN": 160,
+      "FP": 4,
+      "FN": 1,
+      "TP": 70
+    },
+    "authored_validation": {
+      "Precision": 0.8333,
+      "Recall": 1.0,
+      "F1": 0.9091,
+      "ROC_AUC": 0.9775,
+      "PR_AUC": 0.9746,
+      "TN": 16,
+      "FP": 4,
+      "FN": 0,
+      "TP": 20
+    },
+    "eligible": true
+  }
+]

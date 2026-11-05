@@ -1,0 +1,65 @@
+id,text,y_true,score,y_pred
+regression-0,Nhóm sẽ họp lúc 14:00 để chuẩn bị bài thuyết trình.,0,0.028589708937,0
+regression-1,Mai mình học ở phòng A101 nhé.,0,0.000570333127,0
+regression-2,Bạn gửi giúp mình tài liệu môn học hôm nay nhé.,0,0.023433101397,0
+regression-3,Tối nay cả nhà ăn cơm lúc bảy giờ nha.,0,0.025386390721,0
+regression-4,"Mình đang trên đường tới trường, đợi mình chút nhé.",0,0.000270374464,0
+regression-5,Cô dặn cả lớp hoàn thành bài tập trước thứ sáu.,0,0.005943882133,0
+regression-6,"Anh về muộn, em ăn cơm trước đi.",0,0.466535072076,0
+regression-7,Nhớ mang laptop để làm đồ án cùng nhóm nhé.,0,0.020765519284,0
+regression-8,Chiều mai đi uống cà phê với mình không?,0,0.008843354513,0
+regression-9,"Mình đã nhận được bài trình bày của bạn, cảm ơn nhé.",0,0.003288306482,0
+regression-10,Cuộc họp chiều nay chuyển sang phòng B203.,0,0.124901561325,0
+regression-11,Em kiểm tra lại phần báo cáo rồi gửi cô vào tối nay nhé.,0,0.007806156472,0
+regression-12,Bạn đã trúng thưởng tiền mặt! Truy cập https://uu-dai.example/nhan-qua để nhận ngay.,1,0.99831577059,1
+regression-13,"Vay tiền nhanh không cần thế chấp, giải ngân ngay! Đăng ký tại https://vay-nhanh.example",1,0.995760141503,1
+regression-14,"Casino tặng thưởng nạp đầu 200%, truy cập https://casino.example để nhận ưu đãi!",1,0.996980872221,1
+regression-15,Bạn được chọn nhận giải 50 triệu đồng. Nộp phí xác nhận để lĩnh thưởng ngay.,1,0.98806566526,1
+regression-16,Tài khoản ngân hàng của bạn bị khóa. Gửi mật khẩu và mã OTP qua https://xac-minh.example ngay.,1,0.998906183687,1
+regression-17,"Mời bạn tham gia nhóm đầu tư cam kết lợi nhuận 30% mỗi ngày, chuyển tiền để nhận lãi ngay!",1,0.991749769552,1
+regression-18,Nhận quà miễn phí và tiền thưởng! Gửi số tài khoản cùng mật khẩu để đăng ký nhận thưởng.,1,0.990310262975,1
+regression-19,"Việc nhẹ lương cao, chỉ cần nạp tiền trước để nhận nhiệm vụ và hoa hồng mỗi ngày.",1,0.969665608103,1
+regression-20,Họp nhóm nhận thưởng 20 triệu ngay hôm nay! Chuyển phí tham gia vào tài khoản để giữ suất.,1,0.997981743888,1
+regression-21,"Chuẩn bị bài thuyết trình đầu tư làm giàu, nạp vốn ngay để được cam kết lãi 50% mỗi tuần!",1,0.911227063721,1
+regression-22,"Khuyến mãi đặc biệt, mua ngay để nhận thưởng lớn! Truy cập https://sale.example và đăng ký hôm nay.",1,0.992824832628,1
+regression-23,"Dịch vụ vay nóng duyệt hồ sơ ngay, không kiểm tra tín dụng, liên hệ để nhận tiền tức thì.",1,0.998450067672,1
+regression-24,"Hẹn các bạn 2 giờ chiều ở thư viện, mình tập nói phần kết quả nhé.",0,0.000801796634,0
+regression-25,Em xin đổi ca trực thứ bảy với chị được không?,0,0.017718502487,0
+regression-26,"Điện thoại tớ hết pin, có gì nhắn qua email giúp tớ nha.",0,0.231600777431,0
+regression-27,Bé bị sốt nên hôm nay tôi xin phép làm việc ở nhà.,0,0.336740621826,0
+regression-28,Đừng chuyển tiền cho số lạ tự nhận là giáo viên của con.,0,0.6287693525,1
+regression-29,Nhờ bạn gửi lại hóa đơn chia tiền bữa trưa hôm qua.,0,0.045905288921,0
+regression-30,Mai mình nghỉ học vì phải đi làm giấy tờ.,0,0.108468336671,0
+regression-31,Lop minh chieu nay hoc o phong may tang hai nhe.,0,0.007398952186,0
+regression-32,Nho gui minh file bao cao truoc 9 gio toi.,0,0.000409166992,0
+regression-33,"Hoang oi, sang mai minh di an sang cung nhau khong?",0,0.021532308282,0
+regression-34,Mã đăng nhập tài khoản của bạn là [NUMBER]. Vui lòng không chia sẻ mã này.,0,0.060216466642,0
+regression-35,"Hãy giữ kín mật khẩu, nhân viên ngân hàng không yêu cầu đọc OTP.",0,0.420461264802,0
+regression-36,Link tài liệu bài giảng hôm qua ở đây: https://drive.google.com/file/d/tailieu,0,0.275970711822,0
+regression-37,"Trang đăng ký học phần chính thức là https://daotao.example.edu.vn, bạn xem lịch giúp mình.",0,0.29687134014,0
+regression-38,"Mật khẩu Wi-Fi ở nhà tớ là banbe123, cậu vào mạng để gửi bài nhé.",0,0.0019551248,0
+regression-39,"Lần trước mình bị lừa nhận thưởng, lần này mình sẽ báo công an.",0,0.043878966367,0
+regression-40,Bài thực hành yêu cầu phân tích câu lừa đảo: gửi mật khẩu để nhận quà.,0,0.030263935989,0
+regression-41,"Bạn đã để quên áo ở quán, hôm sau ghé lấy nha.",0,0.309617084546,0
+regression-42,Tôi muốn hủy cuộc hẹn sáng thứ năm vì có việc gia đình.,0,0.023679844096,0
+regression-43,"Đã chuyển khoản tiền sách cho cậu, kiểm tra giúp mình nhé.",0,0.042886537801,0
+regression-44,"Bạn nhận được 100 triệu đồng từ chương trình may mắn, chuyển phí xác nhận vào tài khoản để nhận giải.",1,0.99054139319,1
+regression-45,"Vay vốn ưu đãi không cần hồ sơ, nhận tiền liền tay tại https://vay-lien.example.",1,0.999518103073,1
+regression-46,"Cơ quan điều tra yêu cầu chuyển toàn bộ tiền vào quỹ tạm giữ để xác minh, không được báo cho người khác.",1,0.57960443232,1
+regression-47,Yêu cầu khẩn: cung cấp OTP và mật khẩu đăng nhập cho kỹ thuật viên để đồng bộ tài khoản.,1,0.710314177249,1
+regression-48,"Thuê bao nhận ưu đãi tiền mặt, cài ứng dụng APK từ https://nhan-tien.example và nhập mật khẩu ngân hàng.",1,0.991999452568,1
+regression-49,"Đầu tư bảo đảm sinh lời 40% mỗi ngày, nộp vốn hôm nay để giữ mức lợi nhuận.",1,0.997165457404,1
+regression-50,"Để nhận lương cộng tác viên, hãy nạp thêm tiền bảo lãnh mở khóa đơn hàng.",1,0.934223897644,1
+regression-51,"Casino quốc tế tặng tiền cược miễn phí, truy cập https://game-casino.example để nạp và chơi.",1,0.98535210881,1
+regression-52,"Bạn được nhận trợ cấp đặc biệt, gửi mật khẩu tài khoản ngân hàng để hoàn tất thủ tục.",1,0.985411285159,1
+regression-53,"Truy cap https://mo-khoa.example va dien ten dang nhap, mat khau ngan hang de tranh khoa tai khoan.",1,0.995776801236,1
+regression-54,"Chuc mung ban trung thuong tien mat, gui phi ho so truoc de nhan giai ngay.",1,0.997808268735,1
+regression-55,"Vay gap khong the chap, giai ngan trong ngay, dang ky ngay tai https://vay-gap.example.",1,0.992413900097,1
+regression-56,"Mời họp lớp kiếm tiền siêu tốc, cam kết lãi gấp đôi và phải nộp vốn trước buổi hướng dẫn.",1,0.296799142483,0
+regression-57,"Cảnh báo ví điện tử bị khóa, nhập OTP và mật khẩu tại https://ho-tro-vi.example để phục hồi ngay.",1,0.994525583894,1
+regression-58,"Quà tặng miễn phí dành cho bạn, gửi mã xác thực tài khoản và mật khẩu để nhận thưởng.",1,0.963930159202,1
+regression-59,"Nhận tiền miễn phí không cần làm việc, mua gói kích hoạt trước để bắt đầu rút tiền.",1,0.961034345328,1
+regression-60,Hoàn phí bảo hiểm đột xuất: chuyển khoản tiền đối chiếu vào tài khoản cá nhân để nhận lại gấp mười lần.,1,0.978698137046,1
+regression-61,"Link thư viện đầu tư này giúp nhân đôi số dư, nạp tiền tại https://lai-khung.example ngay hôm nay.",1,0.99943737467,1
+regression-62,"Cần người làm tại nhà lương cực cao, chỉ phải đóng phí nhận việc để mở khóa nhiệm vụ.",1,0.96557970483,1
+regression-63,"Cả nhóm muốn giàu nhanh hãy tham gia quỹ lợi nhuận chắc chắn, chuyển tiền ngay để nhận lãi mỗi giờ.",1,0.981457513979,1

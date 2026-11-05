@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-05",
+  "scope": "Simplified desktop UI; progressive disclosure, keyboard, clear draft, real API/models, two accounts, isolated test DB",
+  "passed": 17,
+  "total": 17,
+  "tests": [
+    {
+      "name": "B01 - Hai tài khoản đăng ký qua UI, hai phiên trình duyệt thật",
+      "status": "PASS"
+    },
+    {
+      "name": "UI01 - Trang đầu chỉ có hai mục chính, một nút kiểm tra, tùy chọn đóng",
+      "status": "PASS"
+    },
+    {
+      "name": "B02 - Trường rỗng báo lỗi, không tạo kết quả giả",
+      "status": "PASS"
+    },
+    {
+      "name": "UI02 - Chọn mẫu rồi kiểm tra, không cần chọn mô hình; kết quả gọn",
+      "status": "PASS"
+    },
+    {
+      "name": "UI03 - Mở điểm thật và menu quản lý bằng bàn phím, Escape đóng menu",
+      "status": "PASS"
+    },
+    {
+      "name": "UI04 - Xóa nội dung không đổi tùy chọn, trạng thái lưu hoặc lịch sử",
+      "status": "PASS"
+    },
+    {
+      "name": "B03 - Cả ML/DL Việt/UCI trả điểm và ngưỡng thật, label khớp score",
+      "status": "PASS"
+    },
+    {
+      "name": "B04 - Lưu lịch sử opt-in, reload còn dữ liệu; B không thấy A",
+      "status": "PASS"
+    },
+    {
+      "name": "B05 - Báo sai có nhãn đề xuất, lưu DB, riêng tài khoản A",
+      "status": "PASS"
+    },
+    {
+      "name": "B06 - Luật chặn ở A được ưu tiên, B vẫn gọi model",
+      "status": "PASS"
+    },
+    {
+      "name": "B07 - Thay luật cần xác nhận; Escape giữ luật cũ",
+      "status": "PASS"
+    },
+    {
+      "name": "B08 - Mất kết nối giữ bản nháp; thử lại dùng cùng request_id",
+      "status": "PASS"
+    },
+    {
+      "name": "B09 - Desktop không tràn và CTA thấy ở 1366x768",
+      "status": "PASS"
+    },
+    {
+      "name": "B10 - XSS được hiển thị như chữ, không thực thi",
+      "status": "PASS"
+    },
+    {
+      "name": "B11 - Đăng xuất xóa UI riêng, reload và cookie cũ bị từ chối",
+      "status": "PASS"
+    },
+    {
+      "name": "B12 - Đăng nhập lại đúng tài khoản; mật khẩu sai không mở phiên",
+      "status": "PASS"
+    },
+    {
+      "name": "B13 - Không có lỗi JavaScript hoặc CSP",
+      "status": "PASS"
+    }
+  ]
+}

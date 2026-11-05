@@ -1,0 +1,25 @@
+text,expected,old_score,new_score,old_pred,new_pred
+Nhóm sẽ họp lúc 14:00 để chuẩn bị bài thuyết trình.,0,0.979253026798,0.192783241025,1,0
+Mai mình học ở phòng A101 nhé.,0,0.685623778475,0.030771770216,1,0
+Bạn gửi giúp mình tài liệu môn học hôm nay nhé.,0,0.888250059157,0.165958169686,1,0
+Tối nay cả nhà ăn cơm lúc bảy giờ nha.,0,0.855063154164,0.154720377587,1,0
+"Mình đang trên đường tới trường, đợi mình chút nhé.",0,0.171507116833,0.024732072003,0,0
+Cô dặn cả lớp hoàn thành bài tập trước thứ sáu.,0,0.76042328158,0.18492333719,1,0
+"Anh về muộn, em ăn cơm trước đi.",0,0.893981498434,0.347140267539,1,0
+Nhớ mang laptop để làm đồ án cùng nhóm nhé.,0,0.851686855317,0.193771168772,1,0
+Chiều mai đi uống cà phê với mình không?,0,0.715473724924,0.152233586048,1,0
+"Mình đã nhận được bài trình bày của bạn, cảm ơn nhé.",0,0.816938163397,0.108911578092,1,0
+Cuộc họp chiều nay chuyển sang phòng B203.,0,0.907800304312,0.334823355552,1,0
+Em kiểm tra lại phần báo cáo rồi gửi cô vào tối nay nhé.,0,0.982271472181,0.111157642326,1,0
+Bạn đã trúng thưởng tiền mặt! Truy cập https://uu-dai.example/nhan-qua để nhận ngay.,1,0.988521451677,0.965136282627,1,1
+"Vay tiền nhanh không cần thế chấp, giải ngân ngay! Đăng ký tại https://vay-nhanh.example",1,0.984343432564,0.935014328643,1,1
+"Casino tặng thưởng nạp đầu 200%, truy cập https://casino.example để nhận ưu đãi!",1,0.930090401756,0.928863553414,1,1
+Bạn được chọn nhận giải 50 triệu đồng. Nộp phí xác nhận để lĩnh thưởng ngay.,1,0.994433492318,0.910907196555,1,1
+Tài khoản ngân hàng của bạn bị khóa. Gửi mật khẩu và mã OTP qua https://xac-minh.example ngay.,1,0.488392359578,0.954691468722,0,1
+"Mời bạn tham gia nhóm đầu tư cam kết lợi nhuận 30% mỗi ngày, chuyển tiền để nhận lãi ngay!",1,0.996948235303,0.9472029887,1,1
+Nhận quà miễn phí và tiền thưởng! Gửi số tài khoản cùng mật khẩu để đăng ký nhận thưởng.,1,0.979480633846,0.962159458116,1,1
+"Việc nhẹ lương cao, chỉ cần nạp tiền trước để nhận nhiệm vụ và hoa hồng mỗi ngày.",1,0.993045160599,0.89082537596,1,1
+Họp nhóm nhận thưởng 20 triệu ngay hôm nay! Chuyển phí tham gia vào tài khoản để giữ suất.,1,0.998076732471,0.924115634383,1,1
+"Chuẩn bị bài thuyết trình đầu tư làm giàu, nạp vốn ngay để được cam kết lãi 50% mỗi tuần!",1,0.987777583265,0.734993647232,1,1
+"Khuyến mãi đặc biệt, mua ngay để nhận thưởng lớn! Truy cập https://sale.example và đăng ký hôm nay.",1,0.936586498949,0.924887949998,1,1
+"Dịch vụ vay nóng duyệt hồ sơ ngay, không kiểm tra tín dụng, liên hệ để nhận tiền tức thì.",1,0.999537149968,0.935181470919,1,1

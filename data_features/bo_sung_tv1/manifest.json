@@ -1,0 +1,69 @@
+{
+  "dataset_id": "vi-supplement-969f31901e68",
+  "normalization": "vi-redaction-v1",
+  "seed": 42,
+  "sources": [
+    {
+      "path": "traditional_ml/TV2_hoc_may/data/raw/train_goc.csv",
+      "sha256": "fcd3f0db919578a57df8e4c9d79df2d7af7f1dcc871944f485e7e3a990fc0c1b",
+      "rows": 2394,
+      "origin": "https://raw.githubusercontent.com/trannguyenthaituan251209/vietnamese_sms_dataset/464a028878023598e16f2f344ee36f7d5d74257f/train.csv"
+    },
+    {
+      "path": "traditional_ml/TV2_hoc_may/data/raw/test_goc.csv",
+      "sha256": "ab3a09aa6da2fa5adaa5c74d3662bc1a4b1b6b9f08189c0c8951bce402246760",
+      "rows": 597,
+      "origin": "https://raw.githubusercontent.com/trannguyenthaituan251209/vietnamese_sms_dataset/464a028878023598e16f2f344ee36f7d5d74257f/test.csv"
+    }
+  ],
+  "text_changed_rows": {
+    "train": 721,
+    "test": 85
+  },
+  "invalid_rows": 0,
+  "quarantined_rows": 6,
+  "quarantined_template_groups": 3,
+  "train_test_overlap_removed": 32,
+  "splits": {
+    "train": {
+      "rows": 1640,
+      "ham": 1143,
+      "spam": 497,
+      "spam_ratio": 0.303
+    },
+    "val": {
+      "rows": 235,
+      "ham": 164,
+      "spam": 71,
+      "spam_ratio": 0.3021
+    },
+    "test": {
+      "rows": 562,
+      "ham": 429,
+      "spam": 133,
+      "spam_ratio": 0.2367
+    }
+  },
+  "files_sha256": {
+    "data/test.csv": "6067a282f08f8a19d156456a600994f4886a50d03ba5286cc4fcb25f75315aaa",
+    "data/test_clean.csv": "823d1c69d2597d15ff972aea54763e47554213365bd6a2fbe96eb38866b0fbb7",
+    "data/test_regex_features.csv": "296460ac656ebc8cf67baf4b6a1d6cabb9cffad82ec6bd89220897cb1d9a4ce2",
+    "data/test_source_ids.csv": "69c4c46a171a7d9661669cd5601cc0f0e4754edc87f76a04b85f6548d93bbf09",
+    "data/train.csv": "5aa95ac6423b663046b2c3b586cc1e27b0b947d639cca6520ea5c772d956c74e",
+    "data/train_clean.csv": "dd1626ef2cd0c4f674ce99eb656ee3de1fcc6bd1104b2d433ba1705e807af07b",
+    "data/train_regex_features.csv": "ad0f4720f5ee2930b7ec513a831b79060fb46620dbd5581caaf6d1279989ed3a",
+    "data/train_source_ids.csv": "b4b0e000ebf3bfb369c42d04769149b50dc6ffcc684cf02a4a62581c4fd29a97",
+    "data/val.csv": "5714f68dfe13d913f6aca68047dadebb5a82271753511841985c32ed9f1ac332",
+    "data/val_regex_features.csv": "42b33e3e5930906b8dcd8c2d3f1a85ebd7e38a826b8bb8bc2255ece1dfb3fed0",
+    "data/val_source_ids.csv": "92b117c54dfcca7d4a6a1fcbdbd808adbee14b8ae7a34ff01464734e39c2f6c5",
+    "data/vi_demo_sample.csv": "6126b01365ec60768bed04d470238fe04850941586633ebadf2255bf80944dbd"
+  },
+  "demo_sample": {
+    "spam": 133,
+    "ham": 50,
+    "independent_test": false
+  },
+  "source_validation": "Khớp nguồn công bố sau chuẩn hóa CRLF; license theo README nhà công bố. Chưa kiểm toán độc lập quá trình thu thập.",
+  "test_history": "Bộ test gốc đã được nhóm xem ở các thí nghiệm cũ; bản này không phải holdout mới chưa từng dùng.",
+  "source_verification_report": "reports/source_verification.json"
+}

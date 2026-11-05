@@ -1,0 +1,18 @@
+{
+  "scope": "Desktop UX only; mock classification; not a deployed app",
+  "files": {
+    "index.html": "df88d438248e28ffc7c99c8089a2105818304204a92bbd57a8eafb3d8c971848",
+    "README.md": "ef2d3cf963f89135fc1e5ec3346008fa2a2d72a62b3bb9dcc21c6005a9072ea0",
+    "docs/AUDIT_MAU_1.md": "21e325a6087d2997da2d08a24bb1eed8979849386ba94c9b9c1a05a4399f2d19",
+    "docs/contrast_check.json": "3e9aa37b827c0b0d92c4de3ae66753f758c309b73332fc87c6dfaf04fec6b7cf",
+    "docs/TV4_UX_PACT_va_quy_trinh.pdf": "88c43926ce5e46fb5f8c613bcd7a280f53ec8521c4e19f3a8c367145eeb29e16",
+    "docs/usability_observations.csv": "4904a8f9eec0d02bb995d98283254c54a26020e8fc54791150e2b20dd92b361b",
+    "docs/UX_PACT_QUY_TRINH.md": "4a581419b43b9e8858072bdfaa57af5e4c090bbab9528584df46864626889c56",
+    "screens/desktop-result.png": "0293df8a12e6c62546447a1951c6734c1ddb74f1cfab7bc4d86f055183da849b",
+    "screens/feedback-dialog.png": "ecea05fedd7c679fdc34b2ad376bfc77491709485a82c89f90dcc40f3101ec86",
+    "screens/original-concept.png": "cb4cf2143b81520d65805e3f04d2193c11669ed12ca4218787e6fc828f19ad65",
+    "screens/workspace-result.png": "29c772c07fb61e3eb37981bbe799f9cbe3c1b4e54e2ef02b58bf4c231d86558d",
+    "tests/ux_checks.cjs": "989e147155a8be9721f534edb5a81d33fcd9d4ab3a32763184db234273bf797c",
+    "tests/verification.json": "31d32af29560f21d0447ac5b19978b375c20a09a10b6a85ce4f746732338a513"
+  }
+}

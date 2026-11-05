@@ -1,0 +1,10 @@
+.git
+**/.venv
+**/__pycache__
+**/instance
+**/.env
+**/*.sqlite3*
+**/Tai_khoan_demo.txt
+cloud_app/bo_sung_tv4_ux
+cloud_app/bo_sung_tv4_app/tests
+cloud_app/bo_sung_tv4_app/screens

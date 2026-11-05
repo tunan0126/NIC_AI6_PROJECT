@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "url": "http://127.0.0.1:8080",
+  "results": [
+    {
+      "model": "ml",
+      "label": "ham",
+      "score": 0.192783241025,
+      "threshold": 0.58562407619,
+      "model_version": "5ca95f87443b"
+    },
+    {
+      "model": "dl",
+      "label": "ham",
+      "score": 0.004598545376211405,
+      "threshold": 0.6509048342704773,
+      "model_version": "e0e7903e1fe0"
+    }
+  ]
+}

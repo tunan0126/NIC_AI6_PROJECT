@@ -1,0 +1,75 @@
+{
+  "language": "vi",
+  "dataset_id": "vi-supplement-969f31901e68",
+  "selected_by_validation": "lstm",
+  "models": {
+    "lstm": {
+      "test": {
+        "Precision": 0.7289,
+        "Recall": 0.9098,
+        "F1": 0.8094,
+        "ROC_AUC": 0.9548,
+        "PR_AUC": 0.8785,
+        "TN": 384,
+        "FP": 45,
+        "FN": 12,
+        "TP": 121
+      },
+      "validation": {
+        "Precision": 0.9342,
+        "Recall": 1.0,
+        "F1": 0.966,
+        "ROC_AUC": 0.9904,
+        "PR_AUC": 0.9762,
+        "TN": 159,
+        "FP": 5,
+        "FN": 0,
+        "TP": 71
+      },
+      "threshold": 0.5282832980155945,
+      "batch_inference_seconds": 0.4217
+    },
+    "conv1d": {
+      "test": {
+        "Precision": 0.7562,
+        "Recall": 0.9098,
+        "F1": 0.8259,
+        "ROC_AUC": 0.965,
+        "PR_AUC": 0.9153,
+        "TN": 390,
+        "FP": 39,
+        "FN": 12,
+        "TP": 121
+      },
+      "validation": {
+        "Precision": 0.9459,
+        "Recall": 0.9859,
+        "F1": 0.9655,
+        "ROC_AUC": 0.9973,
+        "PR_AUC": 0.9937,
+        "TN": 160,
+        "FP": 4,
+        "FN": 1,
+        "TP": 70
+      },
+      "threshold": 0.7017136216163635,
+      "batch_inference_seconds": 0.1724
+    }
+  },
+  "ml_baseline": {
+    "Precision": 0.7531,
+    "Recall": 0.9173,
+    "F1": 0.8271,
+    "ROC_AUC": 0.9678,
+    "PR_AUC": 0.8902,
+    "TN": 389,
+    "FP": 40,
+    "FN": 11,
+    "TP": 122
+  },
+  "train_val_test": {
+    "train": 1640,
+    "val": 235,
+    "test": 562
+  }
+}

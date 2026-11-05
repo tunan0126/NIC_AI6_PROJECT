@@ -1,0 +1,54 @@
+{
+  "preprocessing": "vi-nfc-redact-accentfold-v2",
+  "source_manifest": "data_features/bo_sung_tv1/manifest.json",
+  "counts": {
+    "train": {
+      "rows": 1834,
+      "ham": 1267,
+      "spam": 567
+    },
+    "val": {
+      "rows": 299,
+      "ham": 196,
+      "spam": 103
+    },
+    "test": {
+      "rows": 562,
+      "ham": 429,
+      "spam": 133
+    },
+    "challenge": {
+      "rows": 48,
+      "ham": 24,
+      "spam": 24
+    },
+    "regression": {
+      "rows": 64,
+      "ham": 32,
+      "spam": 32
+    }
+  },
+  "input_hashes": {
+    "traditional_ml/bo_sung_tv2/vi/data/train.csv": "5aa95ac6423b663046b2c3b586cc1e27b0b947d639cca6520ea5c772d956c74e",
+    "traditional_ml/bo_sung_tv2/vi/data/val.csv": "5714f68dfe13d913f6aca68047dadebb5a82271753511841985c32ed9f1ac332",
+    "traditional_ml/bo_sung_tv2/vi/data/test.csv": "6067a282f08f8a19d156456a600994f4886a50d03ba5286cc4fcb25f75315aaa",
+    "cloud_app/bo_sung_tv4_app/vi_model_revision/data/train_authored.csv": "187759e3f601e8b3b08bca01cdc4ffac7d389249f0adfcca7b2fd9c586fe6e9b",
+    "cloud_app/bo_sung_tv4_app/vi_model_revision/data/validation_authored.csv": "a46f180da041e2b34cb2ff0eee44b6f8a6d7b6e408ad6db2327fc55d66218c92"
+  },
+  "files_sha256": {
+    "challenge.csv": "3ff3474172447e2b017953f83e57a4a2ed89921d1eda3d021f778d5f87e01f3b",
+    "regression.csv": "e400b2cef773a0ca7a3b14f36fb13e7e355e7829455f361287cc216896bb00be",
+    "test.csv": "9a8accb184f823d48039f51aa98f4578aabc1814705e92f9c685a526a4fb1855",
+    "train.csv": "63edd232139aa0eb30d040607123865917f948ba339049e79d2fa1c732267705",
+    "val.csv": "294cec861c3cb7f526f9149d3f5185b71b97c170ee521d0b922547d9746cdf77"
+  },
+  "label_conflict_groups": 0,
+  "excluded_rows": 2,
+  "provenance": "Published corpus inherited + labelled synthetic development coverage. No new human-verified SMS available; user confirmed. Challenge frozen before fitting, authored by the same assistant, not independent real-world validation.",
+  "label_policy": {
+    "ham": "ordinary conversation, user-requested transactional notices, safety warnings and educational examples",
+    "spam": "unsolicited promotion, credential/OTP requests, advance-fee or guaranteed-return solicitations"
+  },
+  "compatibility": "Original test retained unchanged in text/label; source code and prior artifact packages not overwritten.",
+  "dataset_id": "vi-tv1-v2-808628074b11"
+}

@@ -1,0 +1,91 @@
+{
+  "url": "http://127.0.0.1:8080",
+  "probes": [
+    {
+      "model": "ml",
+      "label": "ham",
+      "score": 0.028589708937,
+      "threshold": 0.574778065562,
+      "model_version": "3e9df8a5afe8",
+      "model_origin": "tv1_4_v2",
+      "dataset_id": "vi-tv1-v2-808628074b11",
+      "saved": false,
+      "text": "Nhóm sẽ họp lúc 14:00 để chuẩn bị bài thuyết trình."
+    },
+    {
+      "model": "ml",
+      "label": "ham",
+      "score": 0.028589708937,
+      "threshold": 0.574778065562,
+      "model_version": "3e9df8a5afe8",
+      "model_origin": "tv1_4_v2",
+      "dataset_id": "vi-tv1-v2-808628074b11",
+      "saved": false,
+      "text": "Nhom se hop luc 14:00 de chuan bi bai thuyet trinh."
+    },
+    {
+      "model": "dl",
+      "label": "ham",
+      "score": 0.004598545376211405,
+      "threshold": 0.6509048342704773,
+      "model_version": "e0e7903e1fe0",
+      "model_origin": "tv4_vi_revision",
+      "dataset_id": "vi-tv4-revision-290ff246dbd5",
+      "saved": false,
+      "text": "Nhóm sẽ họp lúc 14:00 để chuẩn bị bài thuyết trình."
+    },
+    {
+      "model": "dl",
+      "label": "ham",
+      "score": 0.43211907148361206,
+      "threshold": 0.6509048342704773,
+      "model_version": "e0e7903e1fe0",
+      "model_origin": "tv4_vi_revision",
+      "dataset_id": "vi-tv4-revision-290ff246dbd5",
+      "saved": false,
+      "text": "Nhom se hop luc 14:00 de chuan bi bai thuyet trinh."
+    }
+  ],
+  "models": {
+    "items": [
+      {
+        "architecture": "SVM",
+        "dataset_id": "vi-tv1-v2-808628074b11",
+        "language": "vi",
+        "model": "ml",
+        "model_origin": "tv1_4_v2",
+        "model_version": "3e9df8a5afe8",
+        "representation": "TFIDF-word+char",
+        "threshold": 0.574778065562
+      },
+      {
+        "architecture": "conv1d",
+        "dataset_id": "vi-tv4-revision-290ff246dbd5",
+        "language": "vi",
+        "model": "dl",
+        "model_origin": "tv4_vi_revision",
+        "model_version": "e0e7903e1fe0",
+        "threshold": 0.6509048342704773
+      },
+      {
+        "architecture": "RandomForest",
+        "dataset_id": "uci-sms-seed42-original-random-split",
+        "language": "uci",
+        "model": "ml",
+        "model_origin": "tv2",
+        "model_version": "b9f2fb55af7a",
+        "representation": "TFIDF",
+        "threshold": 0.5
+      },
+      {
+        "architecture": "conv1d",
+        "dataset_id": "uci-sms-seed42-original-random-split",
+        "language": "uci",
+        "model": "dl",
+        "model_origin": "tv3",
+        "model_version": "e33d9e35039e",
+        "threshold": 0.44142407178878784
+      }
+    ]
+  }
+}
